@@ -1,0 +1,34 @@
+{
+  "name": "simple-flexbox-storybook",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint": "^4.13.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "simple-flexbox": "git://github.com/llorentegerman/simple-flexbox"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.1.9",
+    "@storybook/addon-info": "^3.1.9",
+    "@storybook/addon-knobs": "^3.2.18",
+    "@storybook/addon-links": "^3.1.6",
+    "@storybook/addon-options": "^3.1.6",
+    "@storybook/addon-storyshots": "^3.1.9",
+    "@storybook/react": "^3.1.9",
+    "@storybook/storybook-deployer": "^2.2.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  }
+}
