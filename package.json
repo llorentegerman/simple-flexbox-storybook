@@ -29,6 +29,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "deploy-storybook": "storybook-to-ghpages"
+    "deploy-storybook": "./node_modules/.bin/build-storybook.cmd"
   }
 }
