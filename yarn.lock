@@ -6953,9 +6953,9 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-"simple-flexbox@git://github.com/llorentegerman/simple-flexbox":
-  version "1.0.0"
-  resolved "git://github.com/llorentegerman/simple-flexbox#38cbb5824a7c8d310b66b40cccb07c531fbd2338"
+simple-flexbox@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/simple-flexbox/-/simple-flexbox-1.0.4.tgz#033c5396370bc6f2d4741d59b58c0e1d9271824d"
   dependencies:
     react "^15.5.4"
     webpack "^2.6.1"
