@@ -6,7 +6,7 @@
     "eslint": "^4.13.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "simple-flexbox": "^1.0.4"
+    "simple-flexbox": "git+https://github.com/llorentegerman/simple-flexbox"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.1.9",
